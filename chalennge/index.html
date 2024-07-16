@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCoffee</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class=" bg-orange-800 bg-cover flex">
+        <div class="container min-h-sreen">
+            <nav class="flex items-center">
+                <img src="./Image PNG 2.png" class="w-20 cursor-pointor" alt="">
+                <h1 class="text-white 2xl">MyCoffee</h1>
+                <ul class="flex-1 text-center">
+                    <li class="list-none inline-block px-5"><a href="#Accueil" class="no-underline text-white px-2">Accueil</a></li>
+                    <li class="list-none inline-block px-5"><a href="#Menu" class="no-underline text-white px-2">Menu</a></li>
+                    <li class="list-none inline-block px-5"><a href="#Galerie" class="no-underline text-white px-2">Galerie</a></li>
+                    <li class="list-none inline-block px-5"><a href="#Contacts" class="no-underline text-white px-2">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            <button type="button" class="relative rounded-full bg-gray-800 p-1 text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+              <span class="absolute -inset-1.5"></span>
+              <span class="sr-only">View notifications</span>
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+              </svg>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="flex space-x-20" style="background-image: url('background\ yellow.webp');">
+            <div class="text-black mt-48">
+                <h1 class="text-5xl font-semibold">MyCoffee<br> Les meilleurs Cafés au Monde !</h1>
+                <p class="mt-10 text-black">Quoi de mieux que de prendre un bon café chaud ou froid à tout moment ! <br> Le Café est notre meilleur allié pour passer une journée sans faille.</p>
+            </div>
+            <div class="mt-10">
+                <img src="./Image PNG 3.png" class="hidden lg:mt-0 lg:col-span-1 lg:flex" alt="">
+                <a href="#Contacts" class="bg-orange-800 mt-20 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-white hover:border-yellow-300 duration-300">Passer ma Commande</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
